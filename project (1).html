@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infosys | Pune DC</title>
+    <style>
+        /* Reset some default styles for better consistency */
+        body, h1, p {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Style the header */
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Style the main content section */
+        .content {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Style the company logo */
+        .company-logo {
+            position: relative;
+            text-align: left;
+            margin-bottom: 20px;
+            background-image: url('background-image.webp'); /* Replace 'background-image.jpg' with your actual background image */
+            background-size: cover;
+            background-position: center;
+            padding: 10px; /* Remove padding */
+            height: 300px; /* Adjust the height of the background image container */
+        }
+        /*.company-logo {
+            background-image: "bg.webp";
+            text-align: center;
+            margin-bottom: 20px;
+        }*/
+
+        /* Style the company description */
+        .company-description {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        /* Style the company values */
+        .company-values {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        /* Style the employee grid */
+        .employee-grid {
+            padding-top: 20px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        /* Style employee cards */
+        .employee-card {
+            text-align: center;
+            border: 3px solid white;
+            background-color: rgb(114, 219, 219);
+            padding: 10px;
+        }
+
+        /* Style employee images */
+        .employee-image {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+        #tagline1{
+            padding: 1px;
+            text-align: center;
+            background-color: lightcoral;
+        }
+        footer{
+            padding: 10px;
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: grey;
+            text-align: center;
+        }
+
+        /* Container for the logo and buttons */
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 50vh;
+            background-color: white;
+        }
+
+        /* Logo */
+        .logo {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            background-color: #3498db;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 20px;
+        }
+
+        .logo img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+        }
+
+        /* Cylindrical buttons */
+        .cylindrical-button {
+            width: 170px;
+            height: 50px;
+            background-color: #b814ce;
+            position: relative;
+            overflow: hidden;
+            color: #fff;
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 25px;
+            border: 4px solid white;
+            border-radius: 50px;
+            text-decoration: none;
+            margin: 10px;
+        }
+
+        /* Hover effect for the buttons */
+        .cylindrical-button:hover::before {
+            transform: skew(45deg) translateX(0);
+        }
+
+        /* Left and right button containers */
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .right-buttons {
+            flex-direction: column-reverse;
+        }
+        .cylindrical-button img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            border: 4px solid white
+        }
+        .button-1{
+            background-color: red;
+        }
+        .button-2{
+            background-color: orange;
+        }
+        .button-3{
+            background-color: lightgreen;
+        }
+        .button-4{
+            background-color: palevioletred;
+        }
+        .button-5{
+            background-color: skyblue;
+        }
+        .button-6{
+            background-color: violet;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    </header>
+    <div class="content">
+        <div class="company-logo"> 
+            <img width="100px" height="30px" src="Infosys_logo.svg.png" alt="Company Logo"> | PUNE DC
+        </div>
+        <div class="company-description">
+            <h2>Our Company</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vehicula libero eu justo laoreet, ac lacinia libero pharetra. Integer luctus vitae sapien vel viverra.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vehicula libero eu justo laoreet, ac lacinia libero pharetra. Integer luctus vitae sapien vel viverra.</p>
+        </div>
+       
+        <!--Code of Buttons-->
+        <div class="container">
+            <div class="button-container">
+                <a href="#" class="cylindrical-button button-1">
+                    <img src="care-values.jpg" alt="Logo">
+                    Care & Values
+                </a>
+                <a href="#" class="cylindrical-button button-2">
+                    <img src="collaboration-img.jpg" alt="Logo">
+                    Collaboration
+                </a>
+                <a href="#" class="cylindrical-button button-3">
+                    <img src="client-centricity.jpg" alt="Logo">
+                    Client Centricity
+                </a>
+            </div>
+            <div class="logo">
+                <img src="corporate-culture.jpg" alt="Logo">
+            </div>
+            <div class="button-container right-buttons">
+                <a href="#" class="cylindrical-button button-4">
+                    <img src="inclusivity.png" alt="Logo">
+                    Inclusivity
+                </a>
+                <a href="#" class="cylindrical-button button-5">
+                    <img src="Learning.png" alt="Logo">
+                    Learning
+                </a>
+                <a href="#" class="cylindrical-button button-6">
+                    <img src="empower.webp" alt="Logo">
+                    Empowerment
+                </a>
+            </div>
+        </div>
+        <!-------------------------------------------------------------------------->
+        <div id="tagline1"><h2>Let's hear what our leaders say about Pune DC Culture ...</h2></div>
+        <div class="employee-grid">
+            <div class="employee-card">
+                <img src="employee.png" alt="Employee 1" class="employee-image">
+                <h3>John Doe</h3>
+                <p>CEO</p>
+            </div>
+            <div class="employee-card">
+                <img src="employee.png" alt="Employee 2" class="employee-image">
+                <h3>Jane Smith</h3>
+                <p>COO</p>
+            </div>
+            <div class="employee-card">
+                <img src="employee.png" alt="Employee 3" class="employee-image">
+                <h3>Mike Johnson</h3>
+                <p>CTO</p>
+            </div>
+            <!-- Add more employee cards as needed -->
+            <div class="employee-card">
+                <img src="employee.png" alt="Employee 9" class="employee-image">
+                <h3>Emily Davis</h3>
+                <p>Product Manager</p>
+            </div>
+            <div class="employee-card">
+                <img src="employee.png" alt="Employee 10" class="employee-image">
+                <h3>Robert White</h3>
+                <p>Graphic Designer</p>
+            </div>
+            <div class="employee-card">
+                <img src="employee.png" alt="Employee 11" class="employee-image">
+                <h3>Susan Anderson</h3>
+                <p>Customer Support</p>
+            </div>
+                
+        </div>
+    </div>
+    <footer>
+        &copy; 2023 Your Company Name
+    </footer>
+</body>
+</html>
